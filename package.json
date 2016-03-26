@@ -1,0 +1,20 @@
+{
+  "name": "mocha-issue-1980-repro",
+  "private": true,
+  "description": "Reproduction of https://github.com/mochajs/mocha/issues/1980",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --harmony_default_parameters",
+    "test:cov": "istanbul cover _mocha -- --reporter dot --harmony_default_parameters"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josmardias/mocha-issue-1980-repro.git"
+  }
+}

@@ -1,0 +1,5 @@
+--require test/bootstrap.js
+--reporter spec
+--recursive
+--check-leaks
+--timeout 20000
